@@ -53,4 +53,4 @@ if st.session_state.analyzed:
         updated_text = st.session_state.text.replace(find_val, replace_val)
         st.session_state.text = updated_text
         st.success("Text updated successfully!")
-    st.text_area("Updated Text:", st.session_state.text, height=200)
+        st.text_area("Updated Text:", st.session_state.text, height=200)
